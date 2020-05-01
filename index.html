@@ -2,8 +2,11 @@
 <html>
     <head>
       <br>
+<!—page name—>
         <title>Suzanna Krivulskaya | Home</title>
+<!—bootstrap style—>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!—css code—>
         <style>
             .footer {
                 position: fixed;
@@ -12,32 +15,75 @@
                 text-align: center;
                 width:100%;
             }
+            @media print {
+                .screen-only {
+                    display: none;
+                }
+            }
         </style>
     </head>
+<!—body code—>
     <body>
       <div class="container">
-          <h1>About Suzanna Krivulskaya</h1>
+          <h1>CS 50 Project 0 Page: Krivulskaya</h1>
           <div class="row">
-          <div class="col-3">
-            <img src="profile.jpg" alt="profile" width="100%">
-          </div>
-          <div class="col-9">
+          <div class="col-12">
             <p>
-            Suzanna Krivulskaya is an Assistant Professor of History at California State University San Marcos where she teaches courses in U.S. and digital history.
-            To learn more about Professor Krivulskaya, <a href="about.html">visit the About page</a>.
-            To check out Professor Krivulskaya's CV, <a href="cv.html">visit the CV page</a>.
-            To get in touch with Professor Krivulskaya, <a href="contact.html">fill out this contact form</a>.
+            Welcome to the Project0 practice class page maintained by Suzanna Krivulskaya.
+            To learn more about the author, <a href="about.html">visit the About page</a>.
             </p>
+          <hr>
+          <h5>Below are some elements required for this first assignment</h5>
+          <hr>
+          <h6>Boostrap alert:</h6>
+            <div class="alert alert-secondary" role="alert">
+              This is an example of a boostrap alert element.
+            </div>
+          <hr>
+          <h6>Boostrap flex grid:</h6>
+            <div class="row">
+                <div class="col-sm">
+                This is an example of the grid model functionality.
+                </div>
+                <div class="col-sm">
+                  The second portion of the flexible grid.
+                </div>
+                <div class="col-sm">
+                  The final portion of the flexible grid.
+                </div>
+            </div>
+          <hr>
+          <h6>Table:</h6>
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col">First Name</th>
+                    <th scope="col">Last Name</th>
+                    <th scope="col">Twitter Handle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Suzanna</td>
+                    <td>Krivulskaya</td>
+                    <td>@suzzzanna</td>
+                  </tr>
+                </tbody>
+          </table>
+          <hr>
+          <h6>Using the @media tag:</h6>
+          <p class="screen-only">This paragraph won't appear when you print this page.</p>
           </div>
           </div>
       </div>
+    </body>
       <br>
       </br>
+<!—footer code—>
       <div class="footer">
         <a href="index.html">Home</a>     |
         <a href="about.html">About</a>     |
         <a href="cv.html">CV</a>     |
         <a href="contact.html">Contact</a>
         </div>
-    </body>
 </html>
