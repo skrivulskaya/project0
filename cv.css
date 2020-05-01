@@ -1,14 +1,25 @@
 div {
   font-family: Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 22px; }
+
+h1 {
+  color: #333232;
   margin-left: 100px;
   margin-right: 100px; }
 
 h4 {
-  color: #333232; }
+  color: #333232;
+  margin-left: 100px;
+  margin-right: 100px; }
 
-ul {
+ul li {
   color: #575151;
-  font-size: 18px; }
+  font-size: 18px;
+  margin-left: 100px;
+  margin-right: 100px; }
+
+hr {
+  margin-left: 100px;
+  margin-right: 100px; }
 
 /*# sourceMappingURL=cv.css.map */
